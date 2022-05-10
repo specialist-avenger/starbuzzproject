@@ -3,6 +3,7 @@
   <head>
     <title>About Page</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="templates/index.css">
   </head>
 <!-- <style>
 body {
@@ -12,25 +13,38 @@ background-image: url('images/3_coffee_holders.jpg')
   
   
 
-  <body style="display: block; margin: 100px;">
+  <body>
 
-    <nav style="text-align: right;">
-      <a href="about.html">About</a>
-      <a href="index.html">Home</a>
-    </nav>
+    <header>
+      <div id="div1">
+              <img class="logo" src="images/starbuzz_logo.jpg" width="100" alt="Starbuzz logo">
+              <h1 style="text-align: center;">STARBUZZ</h1>
+      </div>
+      </header>
 
+      <div id="div2">
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a>
+            <li><a href="about.html">About Us</a>
+            <li><a href="products.html">Our Products</a>
+            <li><a href="locations.html">Our Locations</a></li>
+            </ul>
+        </nav>
+    </div>
+    
     <div>
 
-      <header style="text-align: center;font-style: normal; font-size: 20px; color: black;"><h1>ABOUT US</h1></header>
+      <h1 id="header_about"><h1>ABOUT US</h1></h1>
   
-      <div style="width: 1000px; margin: 20px auto; padding: 40px; background: #4e3418; color: white;">
+      <div style="width: 100%; background: #4e3418; color: white;">
         <blockquote style="font-style: italic; font-size: 20px;">
           <span style="font-style: normal; font-size: 40px; font-weight: bold; color: black;">We the people</span> of Starbuzz are an elite generation of coffee distillers bred from birth to master the art of brewing the perfect cup of coffee, and God willing we will continue to dazzle you with premium grade cocoa water.
         </blockquote>
       </div>
 
 
-        <img src="images/coffee_about.jpg" alt="Our coffee board" style="display: block; margin: 0px auto; width: 1100px;">
+        <img src="images/coffee_about.jpg" alt="Our coffee board" style="display: block; margin: 0px auto; width: 100%;">
 
       <div style="color: black;">
         <h2>Our Founders</h2>
@@ -45,6 +59,11 @@ background-image: url('images/3_coffee_holders.jpg')
         <h4>Vladmir Mayweather</h4>
         <img src="images/micheal_hartl.jpg" width="100" alt="Vladmir Mayweather">
       </div>
+
+      <footer>
+        <a href="https://twitter.com/starbuzz" target="blank"><img class="logo" src="images/twitter.png" width="3%"  alt="twitter"></a>
+        <a href="https://facebook.com/starbuzz" target="blank"><img class="logo" src="images/facebook.jpeg" width="3%" alt="facebook"></a>
+    </footer>
 
     </div>
   </body>
